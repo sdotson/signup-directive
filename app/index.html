@@ -1,0 +1,63 @@
+<html>
+<head>
+	<title>Simple Signup Form</title>
+	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<style type="text/css">
+		.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+		.clearfix {display: inline-block;}
+		* html .clearfix { height: 1%;}
+		.clearfix {display: block;}
+
+		body {
+			font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
+		}
+
+		.brand-logo {
+			background: url('office.jpg');
+			background-size: 100%;
+			width: 300px;
+			height: 200px;
+			display: block;
+			float: left;
+			margin-right: 30px;
+		}
+		.main {
+			margin-bottom: 30px;
+		}
+		.form {
+			overflow: hidden;
+		}
+		.footer {
+			clear: both;
+		}
+		.field-wrapper {
+			margin-bottom: 21px;
+		}
+		label {
+			display: block;
+			margin-bottom: 5px;
+			font-weight: bold;
+		}
+		input {
+			padding: 10px 20px;
+			border: #ccc 2px solid;
+		}
+
+
+	</style>
+</head>
+<body ng-app="signupApp">
+	<header>
+		<h1>Acme Inc.</h1>
+	</header>
+	<main class="clearfix main">	
+		<opt-in>
+			<div class="brand-logo"></div>
+		</opt-in>
+	</main>
+	<footer class="footer">
+		<h1>Some footer stuff</h1>
+	</footer>
+</body>
+</html>

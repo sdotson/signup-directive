@@ -1,0 +1,22 @@
+{
+  "name": "signup-form",
+  "version": "0.0.0",
+  "authors": [
+    "Stu <stuart@blueprintinteractive.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-mocks": "~1.4.3"
+  },
+  "devDependencies": {
+    "angular": "~1.4.3",
+    "angular-mocks": "~1.4.3"
+  }
+}
