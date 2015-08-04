@@ -31,13 +31,12 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-        'app/*.html': 'html2js'
+        '**/*.html': ['ng-html2js']
     },
 
     ngHtml2JsPreprocessor: {
         // strip app from the file path
-        stripPrefix: 'app/',
-        moduleName: 'ngTemplates'
+        stripPrefix: 'app/'
     },
 
 
